@@ -57,7 +57,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="blueSlider" destination="1WX-0E-W98" id="B5P-KZ-Lsy"/>
-                        <outlet property="colorSquare" destination="RRw-CW-efF" id="xwc-57-dS9"/>
+                        <outlet property="colorSquare" destination="RRw-CW-efF" id="2FP-MB-zki"/>
                         <outlet property="greenSlider" destination="DWo-Hv-HzM" id="jO7-1r-pVq"/>
                         <outlet property="redSlider" destination="i2a-kH-GCg" id="hEZ-aS-m7b"/>
                     </connections>
@@ -77,7 +77,7 @@
                     <view key="view" contentMode="scaleToFill" id="KkK-Gc-0CG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.30759148848684209" green="1" blue="0.71271073190789469" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.27911413343329178" green="1" blue="0.57462708573592336" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -86,11 +86,13 @@
             </objects>
             <point key="canvasLocation" x="1610" y="387"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--openColor-->
         <scene sceneID="1WE-ZS-Wnd">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KVQ-4x-L4g" sceneMemberID="viewController">
+                <navigationController title="openColor" automaticallyAdjustsScrollViewInsets="NO" id="KVQ-4x-L4g" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iTT-G3-ELf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
