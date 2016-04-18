@@ -21,21 +21,21 @@
                                 <rect key="frame" x="18" y="118" width="284" height="31"/>
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="updateBackgroundColor" destination="BYZ-38-t0r" eventType="valueChanged" id="ZUv-D1-uC0"/>
+                                    <action selector="updateBackgroundColor" destination="BYZ-38-t0r" eventType="valueChanged" id="ifp-wb-GPW"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="DWo-Hv-HzM">
                                 <rect key="frame" x="18" y="162" width="284" height="31"/>
                                 <color key="tintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="updateBackgroundColor" destination="BYZ-38-t0r" eventType="valueChanged" id="JsU-U0-1Tb"/>
+                                    <action selector="updateBackgroundColor" destination="BYZ-38-t0r" eventType="valueChanged" id="RAg-88-fTf"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="1WX-0E-W98">
                                 <rect key="frame" x="18" y="213" width="284" height="31"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="updateBackgroundColor" destination="BYZ-38-t0r" eventType="valueChanged" id="uaQ-SL-rsb"/>
+                                    <action selector="updateBackgroundColor" destination="BYZ-38-t0r" eventType="valueChanged" id="1IX-bL-y7n"/>
                                 </connections>
                             </slider>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RRw-CW-efF">
@@ -57,7 +57,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="blueSlider" destination="1WX-0E-W98" id="B5P-KZ-Lsy"/>
-                        <outlet property="colorSquare" destination="RRw-CW-efF" id="2FP-MB-zki"/>
+                        <outlet property="colorSquare" destination="RRw-CW-efF" id="M9W-nT-WLI"/>
                         <outlet property="greenSlider" destination="DWo-Hv-HzM" id="jO7-1r-pVq"/>
                         <outlet property="redSlider" destination="i2a-kH-GCg" id="hEZ-aS-m7b"/>
                     </connections>
